@@ -1,0 +1,62 @@
+#float .header {
+    background: #10CE5F;
+    width: calc(100% - 20px);
+    /*position: fixed;*/
+    /*top: 130px;*/
+    /*left: 150px;*/
+    /*bottom: 0px;*/
+}
+#float .d1 {
+    background: #454545;
+    width: 30%;
+    float: left;
+}
+#float .d2 {
+    background: #757575;
+    width: 40%;
+    float: left;
+}
+#float .d3 {
+    background: #972D2D;
+    width: 70%;
+    margin: 0 auto;
+}
+#float .footer {
+    background: #71790A;
+    width: calc(100% - 20px);
+}
+
+#float div {
+    margin: 10px;
+}
+#float .clear {
+  clear: both;
+}
+#float .container {
+  background-color: green;
+}
+
+#flex {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+#flex div {
+  background-color: red;
+  margin: 0;
+}
+
+#flex .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#flex .column{
+  background-color: green;
+  width: 200px;
+  margin: 0 10px;
+  height: 50px;
+
+}
