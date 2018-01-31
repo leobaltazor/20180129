@@ -1,0 +1,14 @@
+.wrapper {
+	width: 100%;
+	position: absolute;
+}
+
+.wrapper>div {
+	float: left;
+	width: 150px;
+	min-width: 150px;
+	margin: auto;
+}
+div:last-child {
+	float: right;
+}
